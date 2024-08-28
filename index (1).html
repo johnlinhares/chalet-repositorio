@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descodificador de texto</title>
+    <link rel="shortcut icon" href="/icone-pag.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style (1).css">
+    <link rel="stylesheet" href="reset (1).css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- separar caixa dentro de caixa para organizar, descifrar e criptografar -->
+    <div class="container">        
+        <div class="share">
+            
+          
+            
+            <a href="'https://www.facebook.com/jonh.linhares?mibextid=ZbWKwLv" " onclick" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/johnlinharess?igsh=MWNqZWR6b3ZmcW1tcQ==" " onclick" class="fab fa-instagram"></a>
+            
+            <h3 class="post">Descodificador de código <span class="typing-text"></span></h3>
+            <!-- <a href="#" class="fab fa-pinterest"></a>
+            <a href="#" class="fab fa-twitter"></a> -->
+        </div>
+        <div class="decifrar">
+            <!-- textearea que é o correto name do campo, classe pro css, id pro js, placeholder=campo pre preenchido, cols=colunas, rows=linhas-->
+            <textarea name="texto" class="texto" id="texto" placeholder="Digite aqui" cols="30" rows="10"></textarea>           
+        
+        <div class="aviso">
+            <p>⚠ Só letras minúsculas e sem acentos.</p>
+        </div>
+        <div class="botoes">
+            <button class="btn-criptografar" type="button" onclick="criptografar()">Criptografar</button>        
+            <input type="button" class="btn-descriptografar" value="Descriptografar" onclick="descriptografar()">
+        </div>
+        <div class="cifrado">
+            <img src="imagem/boneco.png" alt="" id="boneco">
+             <div class="menssagem-cifrada" id="menssagem-cifrada">
+                <textarea readonly name="texto" class="resultado"  id="titulo-menssagem" placeholder="Nenhuma menssagem encontrada" cols="30" rows="10"></textarea>
+                <p id="paragrafo">Insira o que deseja criptografar ou descriptografar</p>
+                <button class="copiar" id="copy-btn" type="button" style="background-color: green"; onclick="copyToClickBoard()">Copiar</button>
+                <button class="btn-reset" id="btn-reset" style="background-color: royalblue;" onClick="window.location.reload();">Limpar</button> <!--
+                <textarea name="menssagem" id="menssagem" cols="30" rows="10" class="menssagem"></textarea> -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy;Copyright Developer john linhares</p>
+    </footer>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+
+
+
+
+</body>
+</html>b
